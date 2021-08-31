@@ -1,0 +1,275 @@
+/* Initialize some basic Stuff */
+
+.library_MainPanel_3BFcm /* Remove Content View */ {
+    display: none !important;
+}
+
+.library_LibraryWindowDivider_276E6 /* remove divider */ {
+    display: none !important;
+}
+
+.gamelistbar_GameListHomeAndSearch_2TKEa /* Home and Collection Buttons */ {
+    display: none !important;
+}
+
+.library_LeftListSizableContainer_9sPoV /* List View 100% Width! */ {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+* {
+	transition: 0s !important;
+	cursor: default !important;
+	box-shadow: none !important;
+}
+
+/* End Initialize some basic Stuff */
+
+
+
+/* Colors */
+
+:root {
+	--lightgreen: #899281;
+	--scrollbarbg: #5a6a50;
+	--green: #4c5844;
+	--darkgreen: #3e4637;
+	--browngreen: #292d23;
+	--textheader: #c4b550;
+	--textsize: 16px;
+	--uninstext: #758666;
+}
+
+/* End Colors */
+
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar, ::-webkit-scrollbar-corner {
+    width: 18px !important;
+    background-color: var(--scrollbarbg) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--green) !important;
+    border-top: solid 1px var(--lightgreen) !important;
+    border-bottom: solid 1px var(--browngreen) !important;
+    border-left: solid 1px var(--lightgreen) !important;
+    border-right: solid 1px var(--browngreen) !important;
+	border-radius: 0 !important;
+}
+
+::-webkit-scrollbar-button:single-button {
+	width: 18px !important;
+	height: 18px !important;
+    border-top: solid 1px var(--lightgreen) !important;
+    border-bottom: solid 1px var(--browngreen) !important;
+    border-left: solid 1px var(--lightgreen) !important;
+    border-right: solid 1px var(--browngreen) !important;
+	background: var(--green) !important;
+	display: block !important;
+}
+
+::-webkit-scrollbar-button:active {
+	border-top: solid 1px var(--browngreen) !important;
+	border-bottom: solid 1px var(--lightgreen) !important;
+	border-left: solid 1px var(--browngreen) !important;
+	border-right: solid 1px var(--lightgreen) !important;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+	background: url("https://i.imgur.com/moQ6fM6.png") no-repeat center, var(--green) !important;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+	background: url("https://i.imgur.com/C4a06VR.png") no-repeat center, var(--green) !important;
+}
+
+/* End Scrollbar */
+
+
+
+/* Section / Collection Header */
+
+.collapseicon_Container_3SFRZ {
+	padding: 0px 0px 0px 6px !important;
+}
+
+.gamelistsectionheader_Container_2sYIg {
+	background: none !important;
+    border-bottom: 1px solid var(--browngreen) !important;
+    margin: -1px 4px 0px 8px !important;
+}
+
+.gamelistsectionheader_SectionHeaderContent_3cV3O, .gamelistsectionheader_SectionHeaderContent_3cV3O:hover .gamelistsectionheader_SectionName_2mZ8L {
+	color: var(--textheader) !important;
+}
+
+/* End Section / Collection Header */
+
+
+
+/* Game Entry */
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B {
+    padding: 2px 4px 2px 8px !important;
+}
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
+	margin-right: 4px !important;
+}
+
+/* End Game Entry */
+
+
+
+/* Game Filters thingy */
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k {
+	left: -590px !important;
+	top: -1px !important;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
+	left: 579px !important;
+	top: -1px !important;
+	width: 9px !important;
+    border-top: solid 1px var(--lightgreen) !important;
+    border-bottom: solid 1px var(--browngreen) !important;
+    background-color: var(--darkgreen) !important;
+}
+
+/* End Game Filters thingy */
+
+
+
+/* Define Colors in random stuff */
+
+.gamelistentry_Container_2-O4Z:hover, .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy, 
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z, 
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z :hover {
+	background-color: var(--browngreen) !important;
+}
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m, 
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY, 
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:hover {
+    border-top: solid 1px var(--lightgreen) !important;
+    border-bottom: solid 1px var(--browngreen) !important;
+    border-left: solid 1px var(--lightgreen) !important;
+    border-right: solid 1px var(--browngreen) !important;
+	background: var(--green) !important;
+	border-radius: 0 !important;
+}
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:active, .DialogInput_Wrapper._DialogLayout, 
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:active, 
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:active {
+	border-top: solid 1px var(--browngreen) !important;
+	border-bottom: solid 1px var(--lightgreen) !important;
+	border-left: solid 1px var(--browngreen) !important;
+	border-right: solid 1px var(--lightgreen) !important;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k, 
+.contextmenu_contextMenu_PP7LM {
+    border-top: solid 1px var(--lightgreen) !important;
+    border-bottom: solid 1px var(--browngreen) !important;
+    border-left: solid 1px var(--lightgreen) !important;
+    border-right: solid 1px var(--browngreen) !important;
+	background: var(--darkgreen) !important;
+	border-radius: 0 !important;
+}
+
+.DialogCheckbox, .tooltip_ToolTipCustom_3XGRk, .tooltip_TextToolTip_2FxbH {
+    border-top: solid 1px var(--lightgreen) !important;
+    border-bottom: solid 1px var(--browngreen) !important;
+    border-left: solid 1px var(--lightgreen) !important;
+    border-right: solid 1px var(--browngreen) !important;
+	background: var(--browngreen) !important;
+	border-radius: 0 !important;
+}
+
+.collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ {
+    stroke: var(--textheader) !important;
+}
+
+.gamelistsearchbar_SearchInput_12vo5 {
+    border-radius: 0 !important;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
+	background-color: transparent !important;
+}
+
+.gamelistbar_Container_3x1Hk {
+    background: var(--darkgreen) !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr, .gamelistsectionheader_SectionCount_29ute {
+	color: var(--uninstext) !important;
+}
+
+/* End Define Colors in random stuff */
+
+
+
+/* Contextual Menus */
+
+stop {
+    stop-color: var(--textheader) !important;
+}
+
+.appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .appfilterpane_FilterBucketLabel_3iV2v {
+    color: var(--textheader) !important;
+    font-weight: 300 !important;
+}
+
+/* End Contextual Menus */
+
+
+
+/* Icons */
+
+#Layer_1, svg.SVGIcon_Button.SVGIcon_ReadyToPlay, svg#Layer_3_copy, svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
+    display: none !important;
+}
+
+div.gamelistdropdown_ViewFiltersBar_36r2a > div > div:nth-child(2):before {
+	content: "RP";
+	color: var(--textheader);
+}
+
+div.gamelistdropdown_ViewFiltersBar_36r2a > div > div:nth-child(1):before {
+	content: "RE";
+	color: var(--textheader);
+}
+
+.gamelistsearchbar_AdvancedSearchButton_1TxHd:before {
+	content: "FIL";
+	color: var(--textheader);
+	font-size: var(--textsize);
+}
+
+.gamelistdropdown_CheckboxWithImage_3mzKd.gamelistdropdown_Active_1QFFk.Focusable {
+    filter: grayscale(0) !important;
+}
+
+.gamelistdropdown_CheckboxWithImage_3mzKd.Focusable {
+    filter: grayscale(1) !important;
+}
+
+.gamelistdropdown_Arrow_15aGn, .contextmenu_Arrow_114nF {
+    background-image: url(https://i.imgur.com/moQ6fM6.png) !important;
+    height: 6px !important;
+    width: 9px !important;
+    margin: 0 !important;
+    image-rendering: pixelated !important;
+}
+
+.contextmenu_Arrow_114nF {
+    transform: rotateZ(-90deg) !important;
+}
+
+/* End Icons */
